@@ -1,0 +1,16 @@
+{
+  "1": {
+    "endpoint": "api.etherscan.io",
+    "keys": {
+      "yourAPIKey1GetFromEtherscan": 5,
+      "yourAPIKey2GetFromEtherscan": 10
+    }
+  },
+  "56": {
+    "endpoint": "api.bscscan.com",
+    "keys": {
+      "yourAPIKey1GetFromBscscan": 5,
+      "yourAPIKey2GetFromBscscan": 10
+    }
+  }
+}
