@@ -1,0 +1,15 @@
+{
+  "1": {
+    "endpoint": "api.etherscan.io",
+    "keys": {
+      "UYD2G767RI7EGMW7S22XMQCSXAC9XIDM1I": 5,
+      "FHQWZMXMS86N32215NYAII59AQAQJNT9HT": 5
+    }
+  },
+  "56": {
+    "endpoint": "api.bscscan.com",
+    "keys": {
+      "VBWIFUZZJBSU1UHA6K5DADJPKCGURTUWE8": 5
+    }
+  }
+}
