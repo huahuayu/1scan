@@ -27,7 +27,7 @@ With those apikeys, I can send requests to the blockchain explorer, and the rate
 
 Use a load balancer to send requests to the blockchain explorer, and the load balancer should consider the rate limit of each apikey.
 
-When interacting with the blockchain explorer, the request should be send to
+When interacting with the blockchain explorer, the request should be sent to
 
 ```
 https://$endpoint/api
@@ -40,12 +40,12 @@ The request maybe get or post request, but what they have in common is that they
 
 So in the end what I want is a unified api endpoint that I can send requests to, the unified api endpoint be like: http://localhost:8080/$chainID, for example, when I send a request to http://localhost:8080/1, the request should be forwarded to `https://api.etherscan.io/api`, and the apikey should be selected from the apikey pool, and the rate limit should be considered.
 
-User can provide their own apikey by http://localhost:8080/$chainID?apikey=$apikey&otherParam=someVal, and the user provided apikey should be used and do not consider the rate limit.
+User can provide their apikey by http://localhost:8080/$chainID?apikey=$apikey&otherParam=someVal, and the user-provided apikey should be used and do not consider the rate limit.
 
-Add a logger to log important info, e.g. request & response, but by default in debug model, it should enable to see the log, so there should be a command flag to control the log level
+Add a logger to log important info, e.g. request & response, but by default in the debug mode, it should enable to see the log, thus I need a command flag to control the log level.
 
-Help me to build the whole app.
+Please help me to build the whole app.
 
-This is an opensource project that other developer can use.
+This is an open-source project that other developers can use.
 
-Based promote.md and the whole app code, generate the README.md for me
+Based on prompt.md and the app's code, generate the README.md for me.
