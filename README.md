@@ -11,6 +11,8 @@ A unified API gateway for integrating multiple etherscan-like blockchain explore
 
 ## Supported Blockchain Networks
 
+**Apply for your own API key from the corresponding blockchain explorer**
+
 | Network Name        | Chain ID | Explorer Link                   | Explorer API Endpoint                |
 | ------------------- | -------- | ------------------------------- | ------------------------------------ |
 | Ethereum            | 1        | https://etherscan.io            | api.etherscan.io                     |
