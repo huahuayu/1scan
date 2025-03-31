@@ -229,6 +229,7 @@ What's the difference in gas fees between Ethereum and Arbitrum right now?
 
 # Examine token information
 Tell me about the tokenomics of the APE token on Ethereum.
+```
 
 ## Complete List of MCP Tools
 
