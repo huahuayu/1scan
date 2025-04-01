@@ -11,5 +11,163 @@
     "keys": {
       "VBWIFUZZJBSU1UHA6K5DADJPKCGURTUWE8": 5
     }
+  },
+  "42161": {
+    "endpoint": "api.arbiscan.io",
+    "keys": {
+      "56HAMSFAFHM35K3AAENF9EUTCFAMURB428": 5
+    }
+  },
+  "137": {
+    "endpoint": "api.polygonscan.com",
+    "keys": {
+      "KNZJSGHSVSH2WW1R1J6V54J7C561W8UARG": 5
+    }
+  },
+  "10": {
+    "endpoint": "api-optimistic.etherscan.io",
+    "keys": {
+      "VVM5PNEVE6GP8EE57VS4YHH5ZIXZCAXS7J": 5
+    }
+  },
+  "43114": {
+    "endpoint": "api.snowtrace.io",
+    "keys": {}
+  },
+  "8453": {
+    "endpoint": "api.basescan.org",
+    "keys": {
+      "72WNGB58CSYIJZE1YEW7T7NJ9KDVDXIG7G": 5
+    }
+  },
+  "324": {
+    "endpoint": "block-explorer-api.mainnet.zksync.io",
+    "keys": {}
+  },
+  "100": {
+    "endpoint": "api.gnosisscan.io",
+    "keys": {
+      "85ISTWBN37P8WEC9WU1VIG8TRM4PCIPVGR": 5
+    }
+  },
+  "250": {
+    "endpoint": "api.ftmscan.com",
+    "keys": {
+      "J3GXM3UST8TWQ4PWCWGVQJPV1KVM7CKNTK": 5
+    }
+  },
+  "5000": {
+    "endpoint": "api.mantlescan.info",
+    "keys": {}
+  },
+  "25": {
+    "endpoint": "api.cronoscan.com",
+    "keys": {
+      "19WHAQUP81E7TUS9UFUPB7HW9MYZRCYCVM": 5
+    }
+  },
+  "1101": {
+    "endpoint": "api-zkevm.polygonscan.com",
+    "keys": {
+      "P361AYG3ZZMWA6NUIHZ2CRQ1RBNYWAXY1Z": 5
+    }
+  },
+  "59144": {
+    "endpoint": "api.lineascan.build",
+    "keys": {
+      "QVUYSTHEJCV3MUGKGQ3KZ2MZRXNPUA2NBI": 5
+    }
+  },
+  "1284": {
+    "endpoint": "api.moonscan.io",
+    "keys": {
+      "TKSUSAX543ANJCG5ZFV5UQH4JEATY8KZ92": 5
+    }
+  },
+  "42220": {
+    "endpoint": "api.celoscan.io",
+    "keys": {
+      "1KUHZSHZAAC7Z4RVJTQ3GC5WFJHF97529X": 5
+    }
+  },
+  "534352": {
+    "endpoint": "api.scrollscan.com",
+    "keys": {
+      "KQVHGX9D3V2IEAYHB6SJ51HB4Z7Z39QDTQ": 5
+    }
+  },
+  "204": {
+    "endpoint": "api.opbnbscan.com",
+    "keys": {}
+  },
+  "1285": {
+    "endpoint": "api-moonriver.moonscan.io",
+    "keys": {
+      "352AZK8MYYYXCF6EWX7BISKAQXSKDRT1R2": 5
+    }
+  },
+  "42170": {
+    "endpoint": "api-nova.arbiscan.io",
+    "keys": {
+      "3KQ677CDF8IRPHY19VFH34DAJ3DMQYMNX9": 5
+    }
+  },
+  "81457": {
+    "endpoint": "api.blastscan.io",
+    "keys": {
+      "TUJ2T8IZT82F1ND2U1TEN5YJCU2HEPCISE": 5
+    }
+  },
+  "252": {
+    "endpoint": "api.fraxscan.com",
+    "keys": {
+      "N9KGB2W13QT8MI7SPVZM9YT2QNINDBD684": 5
+    }
+  },
+  "1111": {
+    "endpoint": "api.wemixscan.com",
+    "keys": {
+      "ZW1A8GSBBEM3U1F6CC5W5F448JPISQJAA7": 5
+    }
+  },
+  "660279": {
+    "endpoint": "api.xaiscan.io",
+    "keys": {
+      "6RQQEH5DDVMKPFW3UYJS1SJXP2Y799WHA7": 5
+    }
+  },
+  "480": {
+    "endpoint": "api.worldscan.org",
+    "keys": {
+      "7A7G4R4U8NRR9XN9AJXG6DFN1U2WRE55HQ": 5
+    }
+  },
+  "33139": {
+    "endpoint": "api.apescan.io",
+    "keys": {
+      "SAX4A584Y71JVS9U45DKXRDTWJAUG6VCKT": 5
+    }
+  },
+  "255": {
+    "endpoint": "api.kromascan.com",
+    "keys": {
+      "E1X9Z6RW22PUD8D2DT5DARYHR7M28WIMSI": 5
+    }
+  },
+  "167000": {
+    "endpoint": "api.taikoscan.io",
+    "keys": {
+      "GSDSZTEXHAFKAE6F45TY3HF3XUSVMSTF9J": 5
+    }
+  },
+  "199": {
+    "endpoint": "api.bttcscan.com",
+    "keys": {
+      "5HPZ2D762U8PJ94334P8U4FUYI4JPX2775": 5
+    }
+  },
+  "50": {
+    "endpoint": "api.xdcscan.io",
+    "keys": {}
   }
 }
