@@ -35,7 +35,7 @@ func main() {
 
 	// Create MCP server
 	mcpServer := server.NewMCPServer(
-		"1scan-blockchain-tools",
+		"1scan-mcp-server",
 		"1.0.0",
 		server.WithLogging(),
 	)
