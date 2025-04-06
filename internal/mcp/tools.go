@@ -560,12 +560,60 @@ func (t *BlockchainTool) GetTokenDetails(chainID, contractAddress string) (strin
 			nativeSymbol = "BNB"
 		case "137": // Polygon
 			nativeSymbol = "MATIC"
-		case "42161": // Arbitrum
+		case "42161": // Arbitrum One
 			nativeSymbol = "ETH"
 		case "10": // Optimism
 			nativeSymbol = "ETH"
-		case "43114": // Avalanche
+		case "43114": // Avalanche C-Chain
 			nativeSymbol = "AVAX"
+		case "8453": // Base
+			nativeSymbol = "ETH"
+		case "324": // zkSync Era
+			nativeSymbol = "ETH"
+		case "100": // Gnosis
+			nativeSymbol = "xDAI"
+		case "250": // Fantom
+			nativeSymbol = "FTM"
+		case "5000": // Mantle
+			nativeSymbol = "MNT"
+		case "25": // Cronos
+			nativeSymbol = "CRO"
+		case "1101": // Polygon ZkEVM
+			nativeSymbol = "ETH"
+		case "59144": // Linea
+			nativeSymbol = "ETH"
+		case "1284": // Moonbeam
+			nativeSymbol = "GLMR"
+		case "42220": // Celo
+			nativeSymbol = "CELO"
+		case "534352": // Scroll
+			nativeSymbol = "ETH"
+		case "204": // OpBNB
+			nativeSymbol = "BNB"
+		case "1285": // Moonriver
+			nativeSymbol = "MOVR"
+		case "42170": // Arbitrum Nova
+			nativeSymbol = "ETH"
+		case "81457": // Blast
+			nativeSymbol = "ETH"
+		case "252": // Fraxtal
+			nativeSymbol = "frxETH"
+		case "1111": // Wemix
+			nativeSymbol = "WEMIX"
+		case "660279": // Xai
+			nativeSymbol = "XAI"
+		case "480": // World Chain
+			nativeSymbol = "ETH"
+		case "33139": // Ape
+			nativeSymbol = "APE"
+		case "255": // Kroma
+			nativeSymbol = "ETH"
+		case "167000": // Taiko
+			nativeSymbol = "ETH"
+		case "199": // Bittorrent
+			nativeSymbol = "BTT"
+		case "50": // Xdc
+			nativeSymbol = "XDC"
 		}
 
 		details := TokenDetails{
