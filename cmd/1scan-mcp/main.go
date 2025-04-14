@@ -21,6 +21,8 @@ func main() {
 	path := flag.String("path", "/mcp", "Path for the MCP server endpoint")
 	configPath := flag.String("config", "config.json", "Path to the config file")
 	transport := flag.String("transport", "sse", "Transport type (sse or stdio)")
+	host := flag.String("host", "localhost", "Host address to listen on")
+	publicUrl := flag.String("public-url", "", "Public URL for external access (default: http://host:port)")
 	flag.Parse()
 
 	// Ensure path starts with a slash
@@ -51,7 +53,12 @@ func main() {
 	// Start the server based on the transport type
 	if *transport == "sse" {
 		// Configure the SSE server with proper endpoints
-		serverURL := fmt.Sprintf("http://localhost:%s", *port)
+		var serverURL string
+		if *publicUrl != "" {
+			serverURL = *publicUrl
+		} else {
+			serverURL = fmt.Sprintf("http://%s:%s", *host, *port)
+		}
 		log.Printf("Setting up SSE server with base URL: %s and path: %s", serverURL, *path)
 
 		// Use our custom SSE server with heartbeat support instead of the standard one
@@ -70,7 +77,7 @@ func main() {
 			log.Printf("MCP server using config file: %s", *configPath)
 			log.Printf("Heartbeat interval: 25 seconds")
 
-			addr := fmt.Sprintf(":%s", *port)
+			addr := fmt.Sprintf("%s:%s", *host, *port)
 			if err := sseServer.Start(addr); err != nil {
 				log.Fatalf("Failed to start MCP server: %v", err)
 			}

@@ -16,6 +16,7 @@ func main() {
 	configFile := flag.String("config", "config.json", "path to config file")
 	logLevel := flag.String("log-level", "info", "logging level (debug, info, warn, error)")
 	port := flag.String("port", "8080", "port to listen on")
+	host := flag.String("host", "", "host address to listen on (default: all interfaces)")
 	flag.Parse()
 
 	// Set log level
@@ -57,7 +58,7 @@ func main() {
 	h := handler.NewHandler(cfg, lb)
 
 	// Start server
-	addr := ":" + *port
+	addr := *host + ":" + *port
 	logger.Info("Starting server on %s", addr)
 	if err := http.ListenAndServe(addr, h); err != nil {
 		logger.Error("Server failed: %v", err)
